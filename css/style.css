@@ -1,0 +1,120 @@
+:root {
+  --button_inner_color: white;
+}
+
+* {
+  font-family: "Calibri", sans-serif;
+  font-size: 16px;
+}
+
+header {
+  padding: 100px 0;
+  margin-bottom: 50px;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 50px 0;
+}
+
+header,
+footer {
+  background: rgb(27, 8, 245);
+  background: radial-gradient(
+    circle,
+    rgba(27, 8, 245, 1) 25%,
+    rgba(255, 252, 0, 1) 64%
+  );
+}
+
+input.search {
+  max-width: 300px;
+  margin-right: 15px;
+}
+
+input {
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 9px -2px rgba(0, 0, 0, 0.2);
+}
+
+.price_discount input {
+  width: 70px;
+}
+
+button.add,
+.btn-primary {
+  background-color: #1b08f5;
+}
+
+button.food_delete,
+.btn-danger {
+  background-color: #f50808;
+}
+
+button.add,
+.btn-primary,
+button.food_delete,
+.btn-danger {
+  color: var(--button_inner_color);
+}
+
+button.add,
+button.food_delete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 9px -2px rgba(0, 0, 0, 0.2);
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.container {
+  background-color: #f8f8f8;
+  box-shadow: 0px 0px 9px -2px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.menu {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.price_title,
+.price_title span {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+th {
+  cursor: pointer;
+  padding: 15px;
+  text-align: center;
+}
+
+tr {
+  height: 30px;
+}
+
+td {
+  padding: 15px;
+  text-align: center;
+}
+
+.good,
+.price_good {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
